@@ -8,7 +8,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="GOROOT" path="D:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1hqfoSaTsqz5aZgY1WA902yX8y8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -64,21 +68,21 @@
       <screen x="0" y="0" width="1549" height="831" />
     </state>
     <state x="517" y="85" key="#go_build_Beego01/0.0.1549.831@0.0.1549.831" timestamp="1600743739227" />
-    <state width="1506" height="213" key="GridCell.Tab.0.bottom" timestamp="1600748992570">
+    <state width="1506" height="213" key="GridCell.Tab.0.bottom" timestamp="1600775142841">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1506" height="213" key="GridCell.Tab.0.bottom/0.0.1549.831@0.0.1549.831" timestamp="1600748992570" />
-    <state width="1506" height="213" key="GridCell.Tab.0.center" timestamp="1600748992570">
+    <state width="1506" height="213" key="GridCell.Tab.0.bottom/0.0.1549.831@0.0.1549.831" timestamp="1600775142841" />
+    <state width="1506" height="213" key="GridCell.Tab.0.center" timestamp="1600775142841">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1506" height="213" key="GridCell.Tab.0.center/0.0.1549.831@0.0.1549.831" timestamp="1600748992570" />
-    <state width="1506" height="213" key="GridCell.Tab.0.left" timestamp="1600748992569">
+    <state width="1506" height="213" key="GridCell.Tab.0.center/0.0.1549.831@0.0.1549.831" timestamp="1600775142841" />
+    <state width="1506" height="213" key="GridCell.Tab.0.left" timestamp="1600775142839">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1506" height="213" key="GridCell.Tab.0.left/0.0.1549.831@0.0.1549.831" timestamp="1600748992569" />
-    <state width="1506" height="213" key="GridCell.Tab.0.right" timestamp="1600748992570">
+    <state width="1506" height="213" key="GridCell.Tab.0.left/0.0.1549.831@0.0.1549.831" timestamp="1600775142839" />
+    <state width="1506" height="213" key="GridCell.Tab.0.right" timestamp="1600775142841">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1506" height="213" key="GridCell.Tab.0.right/0.0.1549.831@0.0.1549.831" timestamp="1600748992570" />
+    <state width="1506" height="213" key="GridCell.Tab.0.right/0.0.1549.831@0.0.1549.831" timestamp="1600775142841" />
   </component>
 </project>
