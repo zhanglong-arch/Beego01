@@ -61,7 +61,7 @@ func (c *MainController) Get() {
  */
 
 func (c *MainController) Post(){
-	//1、
+	//1、接收前端传递的数据。
 	var person models.Person
 	dataBytes, err := ioutil.ReadAll(c.Ctx.Request.Body)
 	json.Unmarshal(dataBytes,&person)
