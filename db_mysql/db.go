@@ -18,6 +18,7 @@ var Db *sql.DB
 
 func init(){
 	fmt.Println("连接数据库")
+	//项目配置
 	config := beego.AppConfig
 	dbDriver := config.String("driverName")
 	dbUser := config.String("db_user")
@@ -25,10 +26,12 @@ func init(){
 	dbIp := config.String("db_ip")
 	dbName := config.String("db_name")
 
+	//连接数据库
 	connUrl := dbUser + ":" + dbPassword + "@tcp("+dbIp+")/"+dbName+"?charset=utf8"
 
 	db, err := sql.Open(dbDriver,connUrl)
-	if err != nil{
+	if err != nil{// err不为nil，表示数据连接时出现了错误，程序就在此中断就可以，
+		//早解决，早解决
 		panic("数据库连接错误")
 	}
 	//为全局赋值
@@ -39,7 +42,7 @@ func init(){
  *将用户信息保存到数据库表当中
  */
 
-func InserUser(user models.User)(int64,error){
+func InsertUser(user models.User)(int64,error){
 	//1、将用户密码进行hash脱敏（不让人可以轻易看到），使用md5计算密码hash值，并存储hash值
 	hashMd5 := md5.New()
 	hashMd5.Write([]byte(user.Password))

@@ -7,6 +7,7 @@ import (
 )
 
 func main() {
+
 	//config := beego.AppConfig
 	//appName := config.String("appname")
 	//fmt.Println("应用名称：", appName)
